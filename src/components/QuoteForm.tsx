@@ -6,7 +6,7 @@ const CONTACT_OPTIONS = [
     title: "WhatsApp",
     detail: "+55 (11) 99876-5432",
     helper: "Atendimento rápido para orçamentos e arquivos.",
-    href: "https://wa.me/5511998765432?text=Olá!%20Vim%20pelo%20site%20e%20quero%20um%20orçamento.",
+    href: "https://w.app/monklaser",
     primary: true,
   },
   {
