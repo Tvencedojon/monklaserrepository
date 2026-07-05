@@ -537,7 +537,7 @@ export default function App() {
       </footer>
 
       <a
-        href="https://wa.me/5511998765432?text=Olá!%20Vim%20pelo%20site%20e%20quero%20um%20orçamento."
+        href="https://w.app/monklaser"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-5 right-5 z-[4000] inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl transition-transform hover:scale-105"
