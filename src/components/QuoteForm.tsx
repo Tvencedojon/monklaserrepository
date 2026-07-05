@@ -12,9 +12,9 @@ const CONTACT_OPTIONS = [
   {
     icon: Mail,
     title: "E-mail",
-    detail: "contato@monklaser.com",
+    detail: "monklaseroficial@gmail.com",
     helper: "Envie referências, medidas e arquivos técnicos.",
-    href: "mailto:contato@monklaser.com?subject=Or%C3%A7amento%20MonkLaser",
+    href: "mailto:monklaseroficial@gmail.com?subject=Or%C3%A7amento%20MonkLaser",
     primary: false,
   },
   {
