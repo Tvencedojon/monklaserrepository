@@ -554,11 +554,11 @@ export default function App() {
           "@type": "LocalBusiness",
           name: "MonkLaser",
           url: "https://monklaser.com",
-          telephone: "+55-11-99876-5432",
+          telephone: "+55-21-98229-5059",
           address: {
             "@type": "PostalAddress",
-            addressLocality: "São Paulo",
-            addressRegion: "SP",
+            addressLocality: "Rio de Janeiro",
+            addressRegion: "RJ",
             addressCountry: "BR",
           },
         })}
