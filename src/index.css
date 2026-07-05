@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --bg-deep: #3f2b86;
+  --bg-surface: #4b3192;
+  --bg-card: #ffffff;
+  --bg-accent: rgba(241, 70, 28, 0.12);
+  --bg-input: #ffffff;
+  --text-main: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.76);
+  --text-soft: rgba(255, 255, 255, 0.55);
+  --border-main: rgba(255, 255, 255, 0.18);
+  --grid-line: rgba(255, 255, 255, 0.06);
+  --brand: #f1461c;
+  --brand-strong: #cc3514;
+  --purple: #4b3192;
+  --purple-deep: #3f2b86;
+  --cream: #f7f3ee;
+  --panel-shadow: 0 24px 80px rgba(29, 13, 76, 0.28);
+}
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-bg-deep: var(--bg-deep);
+  --color-bg-surface: var(--bg-surface);
+  --color-bg-card: var(--bg-card);
+  --color-bg-accent: var(--bg-accent);
+  --color-bg-input: var(--bg-input);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+  --color-text-soft: var(--text-soft);
+  --color-border-main: var(--border-main);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    background: var(--purple);
+    color: var(--text-main);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image:
+      linear-gradient(var(--grid-line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+    background-size: 42px 42px;
+  }
+
+  .hairline {
+    border-color: var(--border-main);
+  }
+
+  .panel-shadow {
+    box-shadow: var(--panel-shadow);
+  }
+
+  .brand-card {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MonkLaser Showcase",
+  "description": "Vitrine Oficial MonkLaser - Serviços de corte e gravação a laser premium em acrílico, MDF e couro, apresentando diferenciais técnicos, fluxo de atendimento e orçamento sob medida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
