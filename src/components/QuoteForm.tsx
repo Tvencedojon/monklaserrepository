@@ -4,7 +4,7 @@ const CONTACT_OPTIONS = [
   {
     icon: MessageCircle,
     title: "WhatsApp",
-    detail: "+55 (11) 99876-5432",
+    detail: "+55 (21) 98229-5059",
     helper: "Atendimento rápido para orçamentos e arquivos.",
     href: "https://w.app/monklaser",
     primary: true,
