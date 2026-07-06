@@ -520,7 +520,7 @@ export default function App() {
           </div>
           <div className="text-left sm:text-center">
             <p>© 2026 MonkLaser. Todos os direitos reservados.</p>
-            <p className="mt-1 text-xs text-white/42">São Paulo, SP | Atendimento: segunda a sexta, 9h às 18h</p>
+            <p className="mt-1 text-xs text-white/42">Rio de Janeir, RJ | Atendimento: segunda a sexta, 9h às 19h</p>
           </div>
           <div className="flex gap-5 text-xs">
             <a href="https://instagram.com/monklaser" target="_blank" rel="noopener noreferrer" className="hover:text-white">
